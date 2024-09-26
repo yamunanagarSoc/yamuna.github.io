@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yamunanagar Society</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+	header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    height: 80px;
+    margin-right: 20px;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .services, .committee, .events {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+		
+        .service, .member{
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            width: 30%;
+            text-align: center;
+            margin: 10px;
+        }
+		
+		.event {
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            width: 20%;
+            text-align: center;
+            margin: 10px;
+        }
+		
+        .event img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .map-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .map-container iframe {
+            width: 80%;
+            height: 400px;
+            border: 0;
+        }	
+		
+    </style>
+</head>
+<body>
+   <header>
+    <img src="yamuna.png" alt="Yamunanagar Society Logo" style="height: 80px; margin-right: 20px;">
+    <h1>Yamunanagar Society</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Amenities</a>
+        <a href="#committee">Committee</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Yamunanagar Society, registered under Reg No: XXXXXXXXXXXX, has been serving since 1988. We offer a peaceful and secure environment for families, prioritizing community living with top-notch facilities.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Amenities</h2>
+        <div class="services">
+            <div class="service">
+                <h3>CCTV Cameras</h3>
+                <p>Ensuring the safety of our residents with comprehensive surveillance.</p>
+            </div>
+			<div class="service">
+                <h3>Street Lightes</h3>
+                <p>Street Lighting on main Road.</p>
+            </div>
+            <div class="service">
+                <h3>RCC Roads and Blocks</h3>
+                <p>Well-constructed roads and blocks for smooth transportation.</p>
+            </div>
+            <div class="service">
+                <h3>Daily Road Cleaning</h3>
+                <p>Keeping our surroundings clean and tidy with daily cleaning services.</p>
+            </div>
+			<div class="service">
+                <h3>Common Plot</h3>
+                <p>A Big Comon plot for any social or member functions</p>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <section id="events">
+        <h2>Events</h2>
+        <div class="events">
+            <div class="event">
+                <h3>Navratri</h3>
+                <img src="navratri.jfif" alt="Navratri Celebration">
+                <p>Celebrating the vibrant festival of Navratri with dance and devotion.</p>
+            </div>
+            <div class="event">
+                <h3>Janmashtami</h3>
+                <img src="janmastmi.webp" alt="Janmashtami Celebration">
+                <p>A joyful celebration of the birth of Lord Krishna with fun and festivities.</p>
+            </div>
+            <div class="event">
+                <h3>Independence Day</h3>
+                <img src="15thAug.jfif" alt="Independence Day Celebration">
+                <p>Honoring our nation with flag hoisting and cultural programs.</p>
+            </div>
+            <div class="event">
+                <h3>Dhuliti</h3>
+                <img src="duliti.jfif" alt="Dhuliti Celebration">
+                <p>Celebrate Dhuliti (Holi) with colors, joy, and community bonding.</p>
+            </div>
+        </div>
+    </section>
+
+     <section id="committee">
+        <h2>Committee Members</h2>
+        <div class="committee">
+            <div class="member">
+                <h3>Chairperson</h3>
+                <p>Dipak D Patel</p>
+            </div>
+            <div class="member">
+                <h3>Secretary</h3>
+                <p>Saurabh P Raval</p>
+            </div>
+            <div class="member">
+                <h3>Treasurer</h3>
+                <p>Jignesh D Patel</p>
+            </div>
+            <div class="member">
+                <h3>Committee Member</h3>
+                <p>Jatin Patel</p>
+            </div>
+            <div class="member">
+                <h3>Committee Member</h3>
+                <p>Ashish D Patel</p>
+            </div>
+            <div class="member">
+                <h3>Committee Member</h3>
+                <p>Ashish R Kansagara</p>
+            </div>
+            <div class="member">
+                <h3>Committee Member</h3>
+                <p>Rakesh B Patel</p>
+            </div>
+            <div class="member">
+                <h3>Committee Member</h3>
+                <p>Arvind Ladva</p>
+            </div>
+            <div class="member">
+                <h3>Committee Member</h3>
+                <p>Tanmay Gajjar</p>
+            </div>
+            <div class="member">
+                <h3>Committee Member</h3>
+                <p>Jayvir</p>
+            </div>
+            <div class="member">
+                <h3>Committee Member</h3>
+                <p>Janardan Patel</p>
+            </div>
+            <div class="member">
+                <h3>Committee Member</h3>
+                <p>Nikunj Patel</p>
+            </div>
+            <div class="member">
+                <h3>Committee Member</h3>
+                <p>Nirav Patel</p>
+            </div>
+            <div class="member">
+                <h3>Committee Member</h3>
+                <p>Pinkesh Patel</p>
+            </div>
+            <div class="member">
+                <h3>Committee Member</h3>
+                <p>Nitin Parajapati</p>
+            </div>
+        </div>
+    </section>
+
+     <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Address: Nr, Sardar Gardan, Naroda, Ahmedabad, Gujarat</p>
+        <div class="map-container">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d917.6984377618048!2d72.65605699134576!3d23.068021861555092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e86d3f4d01589%3A0x4f3c5b4d93757e8!2sYamunanagar%20Society%2C%20Naroda%2C%20Ahmedabad%2C%20Gujarat%20380038!5e0!3m2!1sen!2sin!4v1727289340570!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Yamunanagar Society. All rights reserved.</p>
+    </footer>
+</body>
+</html>
